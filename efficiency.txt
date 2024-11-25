@@ -1,0 +1,15 @@
+Methode Efficiency
+
+Method 1 : add word
+	Time complexity : O(log n)
+
+Method 2 : findWord
+	Time complextiy: O(log n)
+
+Method 3 : deleteWord
+	Time complexity: O(log n)
+
+Method 4: findSimilar
+	Time complexity: O(m * log n)
+ 	note: m is the number of variations a word can have statisfying the rule that the differevnce should be by only one
+ 	letter. And the (log n) comes from the findWord method which is used inside this method.
